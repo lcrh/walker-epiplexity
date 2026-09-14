@@ -1,0 +1,7 @@
+{
+  "beta": 0.01849492933023944,
+  "target": 0.1,
+  "random_probe_episodes": 64,
+  "reservoir_seed": 1,
+  "normalization_base_seed": 0
+}

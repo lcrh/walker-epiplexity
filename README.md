@@ -1,8 +1,10 @@
 # Walker / Epiplexity
 
+**Latest experiment:** [tuned SB3 Zoo PPO, standard versus standard + epiplexity](ZOO.md), with matched seeds and videos.
+
 A video-first reproduction of the **epiplexity-only Walker2d** experiment in Yanbo Zhang and Michael Levin, [Intelligence from Learnable Novelty](https://arxiv.org/abs/2607.18433), Table 1 and Appendix H.
 
-[Watch the recordings](https://lcrh.github.io/walker-epiplexity/).
+[Watch the original recordings](https://lcrh.github.io/walker-epiplexity/original.html).
 
 The training reward is only the increment in trajectory epiplexity. No environment task reward, survival bonus, forward-velocity term, imitation data, or pretrained policy enters training. The environment still terminates on falls, as in the original implementation. The policy observes the standard 17-dimensional state, not pixels.
 

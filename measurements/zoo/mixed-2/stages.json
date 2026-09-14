@@ -1,0 +1,32 @@
+[
+  {
+    "steps": 0,
+    "model": "policy_0000000.zip",
+    "normalization": "policy_0000000.pkl"
+  },
+  {
+    "steps": 100352,
+    "model": "policy_0100352.zip",
+    "normalization": "policy_0100352.pkl"
+  },
+  {
+    "steps": 250368,
+    "model": "policy_0250368.zip",
+    "normalization": "policy_0250368.pkl"
+  },
+  {
+    "steps": 500224,
+    "model": "policy_0500224.zip",
+    "normalization": "policy_0500224.pkl"
+  },
+  {
+    "steps": 750080,
+    "model": "policy_0750080.zip",
+    "normalization": "policy_0750080.pkl"
+  },
+  {
+    "steps": 1000448,
+    "model": "policy_1000448.zip",
+    "normalization": "policy_1000448.pkl"
+  }
+]

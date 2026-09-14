@@ -1,0 +1,41 @@
+{
+  "source_commit": "630883a18f9b77e15dfaefb8a891633d766ef99c",
+  "source_env": "Walker2d-v4",
+  "env": "Walker2d-v5",
+  "steps": 1000000,
+  "n_envs": 1,
+  "normalize": true,
+  "policy": "MlpPolicy",
+  "ppo": {
+    "batch_size": 32,
+    "n_steps": 512,
+    "gamma": 0.99,
+    "learning_rate": 5.05041e-05,
+    "ent_coef": 0.000585045,
+    "clip_range": 0.1,
+    "n_epochs": 20,
+    "gae_lambda": 0.95,
+    "max_grad_norm": 1,
+    "vf_coef": 0.871923
+  },
+  "bonus": {
+    "hidden": 32,
+    "tau": 16,
+    "ridge": 0.3,
+    "calibration_target": 0.1,
+    "base_seed": 0
+  },
+  "mode": "mixed",
+  "seed": 2,
+  "requested_steps": 1000000,
+  "initial_policy_sha256": "6392dd25ecefdd18fbccf745d975083e81f7c80bae852f457f30483c7343ead5",
+  "beta": 0.01849492933023944,
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "torch": "2.10.0",
+    "numpy": "2.4.4",
+    "mujoco": "3.9.0",
+    "gymnasium": "1.2.3",
+    "stable-baselines3": "2.8.0"
+  }
+}

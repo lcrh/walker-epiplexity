@@ -1,0 +1,28 @@
+{
+  "source_commit": "630883a18f9b77e15dfaefb8a891633d766ef99c",
+  "source_env": "Walker2d-v4",
+  "env": "Walker2d-v5",
+  "steps": 1000000,
+  "n_envs": 1,
+  "normalize": true,
+  "policy": "MlpPolicy",
+  "ppo": {
+    "batch_size": 32,
+    "n_steps": 512,
+    "gamma": 0.99,
+    "learning_rate": 5.05041e-05,
+    "ent_coef": 0.000585045,
+    "clip_range": 0.1,
+    "n_epochs": 20,
+    "gae_lambda": 0.95,
+    "max_grad_norm": 1,
+    "vf_coef": 0.871923
+  },
+  "bonus": {
+    "hidden": 32,
+    "tau": 16,
+    "ridge": 0.3,
+    "calibration_target": 0.1,
+    "base_seed": 0
+  }
+}
