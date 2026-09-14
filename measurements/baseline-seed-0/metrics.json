@@ -1,0 +1,11 @@
+{
+  "task_return": 301.5080832507461,
+  "env": "Walker2d-v5",
+  "name": "walker2d",
+  "mode": "standard",
+  "tau": 16,
+  "hidden": 32,
+  "beta": null,
+  "seed": 0,
+  "timesteps": 600000
+}

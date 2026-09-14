@@ -57,3 +57,7 @@ Three-seed mean task return: **278.79 ± 2.84** (population standard deviation a
 | 2 | 275.75 | 148.1 steps | 1.03 m |
 
 These runs fall below the reported paper mean. They show brief forward motion followed by falling, rather than sustained walking. The cause of the numerical gap is not established; three seeds and a macOS arm64 run are not a ten-seed platform-matched replication.
+
+### Diagnostic baseline
+
+One task-reward-only run (seed 0, otherwise the same reference setup) scored **301.51**, compared with the paper’s **296 ± 45**. This suggests the whole PPO/environment pipeline is not uniformly underperforming. It does not isolate the epiplexity gap: seed sampling, platform-sensitive reward numerics, or differences between the released code and the original experimental runs remain possible explanations. See `measurements/baseline-seed-0/`.
