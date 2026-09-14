@@ -1,0 +1,11 @@
+{
+  "task_return": 282.57870167120205,
+  "env": "Walker2d-v5",
+  "name": "walker2d",
+  "mode": "epiplexity",
+  "tau": 16,
+  "hidden": 32,
+  "beta": null,
+  "seed": 1,
+  "timesteps": 600000
+}

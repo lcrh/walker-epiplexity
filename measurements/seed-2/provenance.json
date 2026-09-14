@@ -1,0 +1,16 @@
+{
+  "seed": 2,
+  "requested_steps": 600000,
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (main, Aug 18 2025, 19:02:43) [Clang 20.1.4 ]",
+  "packages": {
+    "torch": "2.10.0",
+    "mujoco": "3.9.0",
+    "numpy": "2.4.4",
+    "gymnasium": "1.2.3",
+    "stable-baselines3": "2.8.0"
+  },
+  "upstream_commit": "22541fa076c8dc11e182c5d611a1beec11662ad1",
+  "reward": "epiplexity only; beta=None; no task reward",
+  "threads": 1
+}

@@ -1,0 +1,9 @@
+gymnasium==1.2.3
+gymnasium-robotics==1.4.2
+mujoco==3.9.0
+numpy==2.4.4
+stable-baselines3==2.8.0
+torch==2.10.0
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+matplotlib==3.10.8
